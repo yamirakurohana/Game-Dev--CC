@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CODING CLUB | GAME DEVELOPMENT</title>
+
+    <meta
+        name="description"
+        content="Coding Club Game Development - Belajar membuat game menggunakan Scratch, Python, Godot, dan Unity."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="pixel-grid"></div>
+    <div class="scanlines"></div>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="container nav-inner">
+
+            <a href="#home" class="brand">
+
+                <img
+                    src="img/icon game dev.jpeg"
+                    alt="Coding Club Game Development"
+                    class="brand-logo"
+                >
+
+                <div class="brand-text">
+                    <span class="brand-small">CODING CLUB</span>
+                    <span class="brand-main">GAME DEV</span>
+                </div>
+
+            </a>
+
+
+            <nav class="nav-menu">
+
+                <a href="#home">HOME</a>
+                <a href="#academy">ACADEMY</a>
+                <a href="#games">GAMES</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#about">ABOUT</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="container">
+
+                <div class="hero-window">
+
+                    <div class="window-bar">
+
+                        <div class="window-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="window-title">
+                            CODING_CLUB.EXE
+                        </div>
+
+                    </div>
+
+
+                    <div class="hero-content">
+
+                        <div class="hero-text">
+
+                            <span class="pixel-label">
+                                GAME DEVELOPMENT CLUB
+                            </span>
+
+                            <h1>
+                                CREATE.
+                                <br>
+                                CODE.
+                                <br>
+                                PLAY.
+                            </h1>
+
+                            <p>
+                                Belajar membuat game dari ide sederhana
+                                menjadi pengalaman interaktif menggunakan
+                                teknologi dan kreativitas.
+                            </p>
+
+
+                            <div class="hero-buttons">
+
+                                <a href="#academy" class="pixel-button primary">
+                                    START LEARNING
+                                </a>
+
+                                <a href="#games" class="pixel-button">
+                                    VIEW GAMES
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-screen">
+
+                            <div class="screen-header">
+                                GAME DEV
+                            </div>
+
+                            <div class="pixel-character">
+
+                                <div class="character-head"></div>
+                                <div class="character-body"></div>
+                                <div class="character-leg left"></div>
+                                <div class="character-leg right"></div>
+
+                            </div>
+
+                            <div class="screen-text">
+                                LOADING WORLD...
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STATS -->
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <strong>04</strong>
+                        <span>GAME ENGINES</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <strong>04</strong>
+                        <span>PROJECTS</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <strong>2D</strong>
+                        <span>GAME DEVELOPMENT</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <strong>100%</strong>
+                        <span>CREATIVITY</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ACADEMY
+        ========================== -->
+
+        <section id="academy" class="section academy">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        01
+                    </span>
+
+                    <div>
+                        <span class="section-label">
+                            LEARNING CENTER
+                        </span>
+
+                        <h2>
+                            GAME DEV ACADEMY
+                        </h2>
+
+                        <p>
+                            Pelajari berbagai tools untuk membuat game
+                            mulai dari visual programming hingga game engine.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <!-- ENGINE TABS -->
+
+                <div class="engine-tabs">
+
+                    <button
+                        class="engine-tab active"
+                        data-target="scratch"
+                    >
+
+                        <img
+                            src="img/scratch.png"
+                            alt="Scratch"
+                        >
+
+                        <span>SCRATCH</span>
+
+                    </button>
+
+
+                    <button
+                        class="engine-tab"
+                        data-target="python"
+                    >
+
+                        <img
+                            src="img/python.png"
+                            alt="Python"
+                        >
+
+                        <span>PYTHON</span>
+
+                    </button>
+
+
+                    <button
+                        class="engine-tab"
+                        data-target="godot"
+                    >
+
+                        <img
+                            src="img/godot.png"
+                            alt="Godot"
+                        >
+
+                        <span>GODOT</span>
+
+                    </button>
+
+
+                    <button
+                        class="engine-tab"
+                        data-target="unity"
+                    >
+
+                        <img
+                            src="img/unity.png"
+                            alt="Unity"
+                        >
+
+                        <span>UNITY</span>
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- =========================
+                     SCRATCH
+                ========================== -->
+
+                <div
+                    class="engine-panel active"
+                    id="scratch"
+                >
+
+                    <div class="engine-intro">
+
+                        <div class="engine-mini-logo">
+
+                            <img
+                                src="img/scratch.png"
+                                alt="Scratch"
+                            >
+
+                        </div>
+
+
+                        <div class="engine-intro-content">
+
+                            <span class="engine-category">
+                                VISUAL PROGRAMMING
+                            </span>
+
+                            <h3>
+                                SCRATCH
+                            </h3>
+
+                            <p>
+                                Belajar dasar programming melalui block
+                                visual dan membuat game interaktif.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="function-heading">
+
+                        <span>
+                            BLOCK FUNCTIONS
+                        </span>
+
+                    </div>
+
+
+                    <div class="function-grid">
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                M
+                            </div>
+
+                            <div>
+                                <h4>MOTION</h4>
+                                <p>
+                                    Mengatur pergerakan karakter.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                L
+                            </div>
+
+                            <div>
+                                <h4>LOOKS</h4>
+                                <p>
+                                    Mengatur tampilan dan kostum.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                E
+                            </div>
+
+                            <div>
+                                <h4>EVENTS</h4>
+                                <p>
+                                    Menjalankan aksi berdasarkan event.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                C
+                            </div>
+
+                            <div>
+                                <h4>CONTROL</h4>
+                                <p>
+                                    Loop, kondisi, dan alur game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                S
+                            </div>
+
+                            <div>
+                                <h4>SENSING</h4>
+                                <p>
+                                    Input dan interaksi objek.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                V
+                            </div>
+
+                            <div>
+                                <h4>VARIABLE</h4>
+                                <p>
+                                    Menyimpan score dan data game.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     PYTHON
+                ========================== -->
+
+                <div
+                    class="engine-panel"
+                    id="python"
+                >
+
+                    <div class="engine-intro">
+
+                        <div class="engine-mini-logo">
+
+                            <img
+                                src="img/python.png"
+                                alt="Python"
+                            >
+
+                        </div>
+
+
+                        <div class="engine-intro-content">
+
+                            <span class="engine-category">
+                                PROGRAMMING
+                            </span>
+
+                            <h3>
+                                PYTHON
+                            </h3>
+
+                            <p>
+                                Belajar programming dengan Python dan
+                                membuat game menggunakan konsep dasar
+                                pemrograman.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="function-heading">
+
+                        <span>
+                            PYTHON BASICS
+                        </span>
+
+                    </div>
+
+
+                    <div class="function-grid">
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                V
+                            </div>
+
+                            <div>
+                                <h4>VARIABLE</h4>
+                                <p>
+                                    Menyimpan data dalam program.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                I
+                            </div>
+
+                            <div>
+                                <h4>IF</h4>
+                                <p>
+                                    Membuat kondisi dalam game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                F
+                            </div>
+
+                            <div>
+                                <h4>FUNCTION</h4>
+                                <p>
+                                    Membuat fungsi yang dapat digunakan ulang.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                L
+                            </div>
+
+                            <div>
+                                <h4>LOOP</h4>
+                                <p>
+                                    Mengulang instruksi program.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                O
+                            </div>
+
+                            <div>
+                                <h4>OBJECT</h4>
+                                <p>
+                                    Mengatur objek dan data game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                G
+                            </div>
+
+                            <div>
+                                <h4>GAME LOOP</h4>
+                                <p>
+                                    Mengatur proses utama game.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     GODOT
+                ========================== -->
+
+                <div
+                    class="engine-panel"
+                    id="godot"
+                >
+
+                    <div class="engine-intro">
+
+                        <div class="engine-mini-logo">
+
+                            <img
+                                src="img/godot.png"
+                                alt="Godot"
+                            >
+
+                        </div>
+
+
+                        <div class="engine-intro-content">
+
+                            <span class="engine-category">
+                                GAME ENGINE
+                            </span>
+
+                            <h3>
+                                GODOT
+                            </h3>
+
+                            <p>
+                                Membuat game 2D menggunakan scene, node,
+                                animation, dan scripting.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="function-heading">
+
+                        <span>
+                            GODOT SYSTEM
+                        </span>
+
+                    </div>
+
+
+                    <div class="function-grid">
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                S
+                            </div>
+
+                            <div>
+                                <h4>SCENE</h4>
+                                <p>
+                                    Menyusun objek dalam sebuah scene.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                N
+                            </div>
+
+                            <div>
+                                <h4>NODE</h4>
+                                <p>
+                                    Komponen dasar dalam Godot.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                G
+                            </div>
+
+                            <div>
+                                <h4>GDSCRIPT</h4>
+                                <p>
+                                    Bahasa scripting untuk game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                A
+                            </div>
+
+                            <div>
+                                <h4>ANIMATION</h4>
+                                <p>
+                                    Membuat gerakan dan animasi.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                P
+                            </div>
+
+                            <div>
+                                <h4>PHYSICS</h4>
+                                <p>
+                                    Mengatur fisika objek game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                U
+                            </div>
+
+                            <div>
+                                <h4>UI</h4>
+                                <p>
+                                    Membuat interface game.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     UNITY
+                ========================== -->
+
+                <div
+                    class="engine-panel"
+                    id="unity"
+                >
+
+                    <div class="engine-intro">
+
+                        <div class="engine-mini-logo">
+
+                            <img
+                                src="img/unity.png"
+                                alt="Unity"
+                            >
+
+                        </div>
+
+
+                        <div class="engine-intro-content">
+
+                            <span class="engine-category">
+                                GAME ENGINE
+                            </span>
+
+                            <h3>
+                                UNITY
+                            </h3>
+
+                            <p>
+                                Mengembangkan game menggunakan Unity
+                                dan C# dengan sistem 2D maupun 3D.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="function-heading">
+
+                        <span>
+                            UNITY SYSTEM
+                        </span>
+
+                    </div>
+
+
+                    <div class="function-grid">
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                S
+                            </div>
+
+                            <div>
+                                <h4>SCENE</h4>
+                                <p>
+                                    Menyusun dunia dan level game.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                G
+                            </div>
+
+                            <div>
+                                <h4>GAMEOBJECT</h4>
+                                <p>
+                                    Objek utama dalam game Unity.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                C
+                            </div>
+
+                            <div>
+                                <h4>C# SCRIPT</h4>
+                                <p>
+                                    Programming menggunakan C#.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                P
+                            </div>
+
+                            <div>
+                                <h4>PREFAB</h4>
+                                <p>
+                                    Membuat objek yang dapat digunakan ulang.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                A
+                            </div>
+
+                            <div>
+                                <h4>ANIMATION</h4>
+                                <p>
+                                    Membuat animasi karakter dan objek.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="function-card">
+
+                            <div class="function-key">
+                                U
+                            </div>
+
+                            <div>
+                                <h4>UI</h4>
+                                <p>
+                                    Membuat interface untuk game.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             GAMES
+        ========================== -->
+
+        <section id="games" class="section games-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+                    <div>
+
+                        <span class="section-label">
+                            STUDENT CREATIONS
+                        </span>
+
+                        <h2>
+                            GAME SHOWCASE
+                        </h2>
+
+                        <p>
+                            Beberapa contoh game yang dapat dikembangkan
+                            melalui kegiatan Game Development.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="game-grid">
+
+                    <article class="game-card">
+
+                        <div class="game-image unity-game">
+
+                            <span>
+                                UNITY
+                            </span>
+
+                        </div>
+
+                        <div class="game-info">
+
+                            <span class="game-tag">
+                                UNITY
+                            </span>
+
+                            <h3>
+                                Nusantara Journey
+                            </h3>
+
+                            <p>
+                                Game pixel adventure bertema perjalanan
+                                budaya Indonesia.
+                            </p>
+
+                            <button
+                                class="game-button"
+                                data-title="Nusantara Journey"
+                                data-description="Game pixel adventure bertema perjalanan budaya Indonesia dari Sabang sampai Merauke."
+                            >
+                                VIEW PROJECT
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="game-card">
+
+                        <div class="game-image minecraft-game">
+
+                            <span>
+                                MINECRAFT
+                            </span>
+
+                        </div>
+
+                        <div class="game-info">
+
+                            <span class="game-tag">
+                                BEDROCK
+                            </span>
+
+                            <h3>
+                                The Shattered RPG
+                            </h3>
+
+                            <p>
+                                RPG fantasy dengan role, quest, skill,
+                                upgrade, dan boss.
+                            </p>
+
+                            <button
+                                class="game-button"
+                                data-title="The Shattered RPG"
+                                data-description="Minecraft Bedrock RPG dengan role, quest, skill, upgrade, dan dunia fantasy."
+                            >
+                                VIEW PROJECT
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="game-card">
+
+                        <div class="game-image scratch-game">
+
+                            <span>
+                                SCRATCH
+                            </span>
+
+                        </div>
+
+                        <div class="game-info">
+
+                            <span class="game-tag">
+                                SCRATCH
+                            </span>
+
+                            <h3>
+                                Adiwiyata Trash Game
+                            </h3>
+
+                            <p>
+                                Game edukasi memilah sampah organik,
+                                non-organik, dan B3.
+                            </p>
+
+                            <button
+                                class="game-button"
+                                data-title="Adiwiyata Trash Game"
+                                data-description="Game edukasi tentang pemilahan sampah dengan sistem score dan hearts."
+                            >
+                                VIEW PROJECT
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="game-card">
+
+                        <div class="game-image godot-game">
+
+                            <span>
+                                GODOT
+                            </span>
+
+                        </div>
+
+                        <div class="game-info">
+
+                            <span class="game-tag">
+                                GODOT
+                            </span>
+
+                            <h3>
+                                Pixel World
+                            </h3>
+
+                            <p>
+                                Eksplorasi dunia pixel dengan karakter
+                                dan environment 2D.
+                            </p>
+
+                            <button
+                                class="game-button"
+                                data-title="Pixel World"
+                                data-description="Game eksplorasi 2D dengan gaya pixel art menggunakan Godot."
+                            >
+                                VIEW PROJECT
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    <div>
+
+                        <span class="section-label">
+                            LEARNING PATH
+                        </span>
+
+                        <h2>
+                            FINAL PROJECT
+                        </h2>
+
+                        <p>
+                            Alur sederhana dalam membuat sebuah game
+                            dari ide hingga menjadi project.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-number">
+                            01
+                        </div>
+
+                        <div>
+
+                            <span>
+                                STEP 01
+                            </span>
+
+                            <h3>
+                                IDEA
+                            </h3>
+
+                            <p>
+                                Menentukan konsep, genre, karakter,
+                                dan tujuan game.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-number">
+                            02
+                        </div>
+
+                        <div>
+
+                            <span>
+                                STEP 02
+                            </span>
+
+                            <h3>
+                                DESIGN
+                            </h3>
+
+                            <p>
+                                Membuat desain level, UI, karakter,
+                                dan gameplay.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-number">
+                            03
+                        </div>
+
+                        <div>
+
+                            <span>
+                                STEP 03
+                            </span>
+
+                            <h3>
+                                CODE
+                            </h3>
+
+                            <p>
+                                Mengimplementasikan mekanik game
+                                menggunakan programming.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-number">
+                            04
+                        </div>
+
+                        <div>
+
+                            <span>
+                                STEP 04
+                            </span>
+
+                            <h3>
+                                TEST
+                            </h3>
+
+                            <p>
+                                Menguji gameplay dan memperbaiki
+                                bug yang ditemukan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-number">
+                            05
+                        </div>
+
+                        <div>
+
+                            <span>
+                                STEP 05
+                            </span>
+
+                            <h3>
+                                RELEASE
+                            </h3>
+
+                            <p>
+                                Menyelesaikan project dan
+                                mempresentasikan game.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="section about-section">
+
+            <div class="container">
+
+                <div class="about-box">
+
+                    <div class="about-logo">
+
+                        <img
+                            src="img/logo-game-dev.png"
+                            alt="Game Development"
+                        >
+
+                    </div>
+
+
+                    <div class="about-content">
+
+                        <span class="section-label">
+                            ABOUT THE CLUB
+                        </span>
+
+                        <h2>
+                            CODING CLUB
+                            <br>
+                            GAME DEVELOPMENT
+                        </h2>
+
+                        <p>
+                            Coding Club Game Development merupakan
+                            ruang belajar untuk mengenal dunia
+                            pemrograman dan pengembangan game.
+                        </p>
+
+                        <p>
+                            Anggota dapat belajar membuat game
+                            menggunakan Scratch, Python, Godot,
+                            dan Unity melalui project yang kreatif
+                            dan interaktif.
+                        </p>
+
+
+                        <div class="about-tags">
+
+                            <span>SCRATCH</span>
+                            <span>PYTHON</span>
+                            <span>GODOT</span>
+                            <span>UNITY</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+
+                <img
+                    src="img/logo-game-dev.png"
+                    alt="Game Development"
+                >
+
+                <div>
+
+                    <strong>
+                        CODING CLUB
+                    </strong>
+
+                    <span>
+                        GAME DEVELOPMENT
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p>
+                Learn. Create. Play.
+            </p>
+
+
+            <span class="copyright">
+                2026 CODING CLUB
+            </span>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         MODAL
+    ========================== -->
+
+    <div
+        class="modal"
+        id="projectModal"
+    >
+
+        <div class="modal-box">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+                type="button"
+            >
+                X
+            </button>
+
+            <span class="section-label">
+                PROJECT
+            </span>
+
+            <h2 id="modalTitle">
+                Project
+            </h2>
+
+            <p id="modalDescription">
+                Description
+            </p>
+
+            <button
+                class="pixel-button primary"
+                id="modalOkay"
+                type="button"
+            >
+                CLOSE
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
